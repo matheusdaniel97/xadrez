@@ -41,7 +41,7 @@ public class Board {
         return pieces [position.getRow()] [position.getColumn()];
     }
 
-    public void placepiece(Piece piece, Position position){
+    public void placePiece(Piece piece, Position position){
 
         if(thereIsAPiece(position)){
             throw new BoardException("Já tem uma peça nesse local");
